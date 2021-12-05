@@ -1,0 +1,13 @@
+{
+  "folders": [
+    {
+      "path": "..\\..\\..\\..\\Downloads\\complete-javascript-course-master\\complete-javascript-course-master\\01-Fundamentals-Part-1\\starter"
+    },
+    {
+      "path": "..\\.."
+    }
+  ],
+  "settings": {
+    "liveServer.settings.multiRootWorkspaceName": "starter"
+  }
+}
