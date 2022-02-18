@@ -1,7 +1,23 @@
+import bcrypt from 'bcryptjs'
+
 const data = {
+    users:[
+        {
+            name: 'Sanjeev',
+            email: 'sansil@420.com',
+            password: bcrypt.hashSync('123444', 8),
+            isAdmin: true,
+         },
+        {
+            name: 'Neel',
+            email: 'neel@420.com',
+            password: bcrypt.hashSync('1234478', 8),
+            isAdmin: false,
+        }
+    ],
     products: [
         {
-            _id:'1',
+           
             name: 'Rolex Baby',
             category:'Watch',
             image: '/Images/Rolex.jpg',
@@ -14,7 +30,7 @@ const data = {
         },
 
         {
-            _id:'2',
+            
             name: 'Mountain Bike',
             category:'Bike',
             image: '/Images/Bike.jpg',
@@ -27,7 +43,7 @@ const data = {
         },
 
         {
-            _id:'3',
+            
             name: 'Tool Chair',
             category:'Chair',
             image: '/Images/chair.jpg',
@@ -40,7 +56,7 @@ const data = {
         },
 
         {
-            _id:'4',
+            
             name: 'Ps5',
             category:'Gaming Console',
             image: '/Images/Game.jpg',
@@ -53,7 +69,7 @@ const data = {
         },
 
         {
-            _id:'5',
+            
             name: 'Watch',
             category:'Watch',
             image: '/Images/Watch.jpg',
@@ -66,7 +82,7 @@ const data = {
         },
 
         {
-            _id:'6',
+            
             name: 'Headphones',
             category:'Accessories',
             image: '/Images/Headphone.jpg',
